@@ -31,7 +31,9 @@ DEPEND="
 	dev-qt/qtxml:5
 	dev-qt/qtprintsupport:5
 	dev-qt/qtwebsockets:5
-	dev-qt/qtx11extras:5
+	X? (
+		dev-qt/qtx11extras:5
+	)
 "
 RDEPEND="${DEPEND}"
 
